@@ -34,9 +34,9 @@ var resultado = function (jugadaU, jugadaC) {
     };
     if (jugadaU === "tijera") {
         if (jugadaC === "piedra") {
-            return "Ha ganado el usuario.";
-        } else {
             return "Ha ganado la consola.";
+        } else {
+            return "Ha ganado el usuario.";
         }
     };
 };
